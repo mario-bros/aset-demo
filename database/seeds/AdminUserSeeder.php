@@ -20,7 +20,7 @@ class AdminUserSeeder extends Seeder
                     "name" => "mario.fredrick",
                     "email" => "mario.fredrick@tnisiber.id",
                     "password" => bcrypt(env('ADMIN_PWD', 'password')),
-                    "pass_prompt" => 1,
+                    "pass_prompt" => 0,
                     "created_at" => $currTime,
                     "updated_at" => $currTime
             ]);
